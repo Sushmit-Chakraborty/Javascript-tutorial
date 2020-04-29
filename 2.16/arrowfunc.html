@@ -1,0 +1,12 @@
+
+<script>
+    let askQuestion = (question,yes,no) => {
+        if(confirm(question)) yes()
+        else no();
+    }
+
+    askQuestion("Do you agree?",
+    () => { alert('Agreed'); },
+    () => { alert("Cancelled"); }
+    );
+</script>

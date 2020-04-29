@@ -1,0 +1,18 @@
+<script>    
+    let calculator = {
+        read(){
+            this.firstNum = +prompt('First number');
+            this.secondNum = +prompt('Second number');
+        },
+        sum(){
+            return this.firstNum + this.secondNum;
+        },
+        mul(){
+            return this.firstNum * this.secondNum;
+        }
+    };
+    
+    calculator.read();
+    alert( calculator.sum() );
+    alert( calculator.mul() );
+</script>

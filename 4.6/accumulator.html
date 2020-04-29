@@ -1,0 +1,15 @@
+<script>
+    function Accumulator(intitialValue){
+        this.value = intitialValue,
+        this.read = function(){
+            value = +prompt('Enter value to add');
+            this.value += value
+        }
+    }
+    let accumulator = new Accumulator(1);
+
+    accumulator.read(); 
+    accumulator.read(); 
+
+    alert(accumulator.value);
+</script>
