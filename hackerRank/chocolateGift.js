@@ -5,7 +5,22 @@
 // She can either give him first and second portion(3+1=4) or second and third portion(1+3=4) or fourth and fifth portion(2+2=4).
 
 
-let chocolate = [1,2,1,2,1];
+// let chocolate = [1,2,1,2,1];
+
+// const ronDate = 3;
+// let giftingWays = 0;
+
+// for(let i=0;i<chocolate.length-1;i++){
+//     currPortion = chocolate[i];
+//     leftPortion = ronDate - currPortion;
+//     if(chocolate[i+1] == leftPortion){
+//         giftingWays += 1;
+//     }
+// }
+
+// console.log(giftingWays);
+
+let chocolate = [1,1,1,2,1];
 
 const ronDate = 3;
 let giftingWays = 0;
